@@ -8,6 +8,7 @@ In paleontology, microfossil concentrate is a mixture of microfossils (typically
 ## Milestone Goals  
 1. Consolidated computer vision program for distinguishing microfossils from gravel  
 **Goals:**  
+Fix SVM  
 Improve color discrimination algorithms, test out new color discrimination techniques  
 Make shape-based discrimination function  
 Incorporate both functions into a single discrimination program for images of individual microfossils and gravel  
@@ -20,23 +21,30 @@ Determine minimum amount of training necessary to have 90%+ accuracy
 Create tool for training computer vision program with directories for microfossil/gravel images  
 Allow for batch processing of images  
 Create ability to save/load a training profile  
-Create user interface  
+
 3. Design prototype of hardware sorter  
 **Goals:**  
-Finalize most appropriate method(s) of safely and efficiently sorting microfossils concentrate  
-Identify and locate where to acquire hardware necessities, such as camera, arduino, etc.  
+Identify and acquire hardware necessities, such as camera, arduino, etc.  
 Have 3D models of plans of prototype sorter, including necessary electronics  
 Assemble prototype sorter and make changes to model and parts as necessary  
 Design and assemble second-draft prototype  
 
-4. Make user interface  
+4. Create a GUI  
 **Goals:**  
-Incorporate all elements of commandline tools into a relatively easy-to-use program with a graphical user interface  
+Ability to save and load a training profile from within the interface.  
+Create a start menu for beginning analysis.  
 
 5. Maintain website and progress blog  
 **Goals:**  
 Include project and contact information  
 Include relevant information about potential usefulness of project and how others can get involved  
+
+6. Data  
+**Goals:**  
+Gather more training data.  
+Generate data from more locales.  
+
+
 
 ## Overarching Goals  
 _Documentation_:  
